@@ -17,13 +17,13 @@
     --cor5: #222222;
     --cor6: #7B9797;
 
-    --font-Michroma: 'Michroma', cursive;
+    --font-Demo: "Demo";
     --font-Audiowide: 'Audiowide', cursive;
     --font-padrao: Arial, Helvetica, sans-serif;
 }
 
 h1{
-    font-family: "Demo";
+    font-family: var(--font-Demo);
 }
 
 h2{
