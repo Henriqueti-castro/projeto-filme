@@ -1,0 +1,22 @@
+@charset "utf";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Forum&family=Michroma&family=Oswald:wght@200..700&display=swap');
+
+:root{
+    --cor1: #FFFFFF;
+    --cor2: #00050D;
+    --cor3: #000000;
+    --cor4: #00050D;
+    --cor5: #222222;
+    --cor6: #7B9797;
+
+    --font-michroma: 'Michroma', cursive
+}
+
+body{
+    background-color: var(--cor3);
+}
+
+h2{
+    color: var(--font-michroma);
+}
