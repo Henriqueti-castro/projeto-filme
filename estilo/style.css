@@ -13,10 +13,6 @@
     --font-michroma: 'Michroma', cursive
 }
 
-body{
-    background-color: var(--cor3);
-}
-
 h2{
     font-family: var(--font-michroma);
     color: var(--cor1);
