@@ -29,15 +29,19 @@
 
 header{
     background-color: var(--cor2);
-    margin-left: clamp(50px, 2vw, 10px);
     padding: 20px;
+}
+
+header div{
+    margin-left: clamp(10px, 2vw, 100px);
+    display: flex;
 }
 
 header p{
     color: var(--cor1);
     font-family: var(--font-padrao);
     font-weight: bold;
-    margin-right: clamp(15px, 2vw, 200px);
+    padding: 10px;
 }
 
 nav a{
@@ -45,10 +49,16 @@ nav a{
     font-family: var(--font-padrao);
     font-weight: bold;
     padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: var(--cor1);
+    color: var(--cor2);
 }
 
 h1{
-    color: var(--cor1);
+    color: var(--cor3);
     font-family: var(--font-Demo);
     font-size: 25px;
 }
