@@ -22,8 +22,35 @@
     --font-padrao: Arial, Helvetica, sans-serif;
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: var(--cor2);
+    margin-left: clamp(50px, 2vw, 10px);
+    padding: 20px;
+}
+
+header p{
+    color: var(--cor1);
+    font-family: var(--font-padrao);
+    font-weight: bold;
+    margin-right: clamp(15px, 2vw, 200px);
+}
+
+nav a{
+    color: var(--cor1);
+    font-family: var(--font-padrao);
+    font-weight: bold;
+    padding: 10px;
+}
+
 h1{
+    color: var(--cor1);
     font-family: var(--font-Demo);
+    font-size: 25px;
 }
 
 h2{
