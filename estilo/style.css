@@ -10,10 +10,10 @@
     --cor5: #222222;
     --cor6: #7B9797;
 
-    --font-michroma: 'Michroma', cursive
+    --font-Michroma: 'Michroma', cursive
 }
 
 h2{
-    font-family: var(--font-michroma);
+    font-family: var(--font-Michroma);
     color: var(--cor1);
 }
