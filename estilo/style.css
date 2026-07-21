@@ -1,8 +1,13 @@
 @charset "utf";
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Forum&family=Michroma&family=Oswald:wght@200..700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Audiowide&family=Bebas+Neue&family=Forum&family=Michroma&family=Oswald:wght@200..700&display=swap');
+
+@font-face{
+    font-family: "Demo";
+    src: url(../fontes/WOX-Striped_Triple_Demo.otf) format(opentype);
+    font-weight: bold;
+    font-style: normal;
+}
 
 :root{
     --cor1: #FFFFFF;
@@ -14,9 +19,15 @@
 
     --font-Michroma: 'Michroma', cursive;
     --font-Audiowide: 'Audiowide', cursive;
+    --font-padrao: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: "Demo";
 }
 
 h2{
     font-family: var(--font-Audiowide);
     color: var(--cor3);
+    font-family: Arial, Helvetica, sans-serif;
 }
