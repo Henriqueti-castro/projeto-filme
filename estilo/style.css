@@ -61,9 +61,9 @@ nav a:hover{
 }
 
 .contain-ti{
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-bottom: 50px;
+    margin-top: clamp(10px, 5vw, 100px);
+    margin-left: clamp(10px, 5vw, 100px);
+    margin-bottom: clamp(10px, 5vw, 50px);
     line-height: 30px;
     width: 500px;
 }
@@ -76,7 +76,7 @@ nav a:hover{
 
 .contain-ti p{
     font-family: var(--font-padrao);
-    font-size: 20px;
+    font-size: clamp(10px, 2vw, 20px);
     font-weight: bold;
  
 }
