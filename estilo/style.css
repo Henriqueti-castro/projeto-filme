@@ -104,7 +104,12 @@ nav a:hover{
 
 .ge{
     display: flex;
+}
 
+.contain-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .imge{
