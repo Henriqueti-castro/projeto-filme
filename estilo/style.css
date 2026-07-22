@@ -87,10 +87,11 @@ nav a:hover{
     line-height: clamp(20px, 2vw, 30px);
     text-align: justify;
 }
-
+@media (min-width: 600px) {
 .ge{
-    display: flex;
     flex-direction: column-reverse;
+    display: flex;
+}
 }
 
 .imge{
