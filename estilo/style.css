@@ -33,7 +33,7 @@ header{
 }
 
 header div{
-    margin-left: clamp(10px, 2vw, 100px);
+    margin-left: 
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -64,7 +64,6 @@ nav a:hover{
 h1{
     color: var(--cor3);
     font-family: var(--font-Demo);
-    font-size: 25px;
 }
 
 h2{
