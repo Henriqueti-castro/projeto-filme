@@ -78,10 +78,11 @@ nav a:hover{
     font-family: var(--font-padrao);
     font-size: clamp(14px, 2vw, 20px);
     font-weight: bold;
-    line-height: clamp(10px, 2vw, 30px);
+    line-height: clamp(20px, 2vw, 30px);
     text-align: justify;
- 
 }
+
+
 
 h2{
     font-family: var(--font-Audiowide);
