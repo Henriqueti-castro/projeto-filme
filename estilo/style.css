@@ -60,9 +60,23 @@ nav a:hover{
     border-radius: 2px;
 }
 
-h1{
+.contain-ti{
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    line-height: 30px;
+    width: 500px;
+}
+
+.contain-ti h1{
     color: var(--cor3);
     font-family: var(--font-Demo);
+}
+
+.contain-ti p{
+    font-family: var(--font-padrao);
+    font-weight: bold;
+ 
 }
 
 h2{
