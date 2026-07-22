@@ -64,17 +64,10 @@ nav a:hover{
     border-radius: 2px;
 }
 
-@media (max-width: 600px) {
-.contain-ti{
-   display: block;
-   box-shadow: 0px -10px 10px var(--cor3);
-}
-
-}
 .contain-ti{
     margin-top: clamp(10px, 5vw, 100px);
     margin-left: clamp(10px, 5vw, 100px);
-    margin-right: clamp(0px, 2vw, 150px);
+    margin-right: 150px;
     margin-bottom: clamp(10px, 5vw, 50px);
     max-width: 500px;
     min-width: 250px;
@@ -95,7 +88,7 @@ nav a:hover{
     text-align: justify;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 .ge{
     flex-direction: column-reverse;
     display: flex;
@@ -108,10 +101,24 @@ nav a:hover{
     display: flex;
 }
 
-.imge{
-    display: flex;
-    gap: 20px;
+@media (max-width: 800px) {
+    .ge .contain-ti{
+        margin: 0px 20px;
+        display: block;
+        box-shadow: 0px -50px 50px var(--cor3);
+    }
+}
 
+.imge{
+    align-items: flex-start;
+    display: flex;
+    gap: 5px;
+}
+
+.contain-img{
+    display: flex;
+    flex-direction: column;
+    
 }
 
 h2{
