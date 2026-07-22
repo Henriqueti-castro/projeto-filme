@@ -174,9 +174,21 @@ h2{
     padding-bottom: 50px;
 }
 
+@media (max-width: 800px) {
+    .ge-info{
+        flex-direction: column;
+    }
+}
+
 .div-info{
     display: block;
     width: 700px;
+}
+
+@media (max-width: 800px) {
+    .div-info{
+        width: 400px;
+    }
 }
 
 .div-info img{
