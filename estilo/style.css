@@ -82,10 +82,6 @@ nav a:hover{
     text-align: justify;
 }
 
-.contain-div{
-    display: flex;
-}
-
 .contain-img{
     display: flex;
 }
