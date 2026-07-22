@@ -64,6 +64,12 @@ nav a:hover{
     border-radius: 2px;
 }
 
+@media (max-width: 600px) {
+.contain-ti{
+   box-shadow: 0px -10px 10px var(--cor3);
+}
+
+}
 .contain-ti{
     margin-top: clamp(10px, 5vw, 100px);
     margin-left: clamp(10px, 5vw, 100px);
@@ -92,11 +98,13 @@ nav a:hover{
 .ge{
     flex-direction: column-reverse;
     display: flex;
+    margin: auto;
 }
 }
 
 .ge{
     display: flex;
+
 }
 
 .imge{
