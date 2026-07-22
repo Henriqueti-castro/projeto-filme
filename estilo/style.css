@@ -145,7 +145,19 @@ h2{
 
 .img-add img{
     border-radius: 10px;
+    margin-left: clamp(15px, 2vw, 30px);
 }
+
+.zo-img img{
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.zo-img:hover img{
+    transform: scale(1.2);
+}
+
+
 
 .img-view{
     display: flex;
@@ -160,6 +172,7 @@ h2{
 
 .img-view img{
     border-radius: 10px;
+    margin-left: clamp(15px, 2vw, 30px);
 }
 
 .ge-info{
