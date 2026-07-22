@@ -82,15 +82,12 @@ nav a:hover{
     text-align: justify;
 }
 
-.ti-ge{
+.contain-div{
     display: flex;
 }
 
-@media (max-width: 768px){
-    .contain-div{
-        display: flex;
-        flex-direction: column-reverse;
-    }
+.contain-img{
+    display: flex;
 }
 
 h2{
