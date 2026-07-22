@@ -73,7 +73,7 @@ nav a:hover{
 .contain-ti{
     margin-top: clamp(10px, 5vw, 100px);
     margin-left: clamp(10px, 5vw, 100px);
-    margin-right: clamp(0px, 2vw, 250px);
+    margin-right: clamp(0px, 2vw, 100px);
     margin-bottom: clamp(10px, 5vw, 50px);
     max-width: 500px;
     min-width: 250px;
@@ -106,7 +106,7 @@ nav a:hover{
     display: flex;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
 .contain-div{
     display: flex;
     flex-direction: column;
