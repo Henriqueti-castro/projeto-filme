@@ -82,8 +82,9 @@ nav a:hover{
     text-align: justify;
 }
 
-.contain-img{
+.imge{
     display: flex;
+    gap: 20px;
 }
 
 h2{
