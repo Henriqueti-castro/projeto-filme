@@ -82,7 +82,12 @@ nav a:hover{
     text-align: justify;
 }
 
-
+@media (max-width: 100%){
+    .contain-div{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
 
 h2{
     font-family: var(--font-Audiowide);
