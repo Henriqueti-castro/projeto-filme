@@ -124,6 +124,16 @@ nav a:hover{
     
 }
 
+.titulo{
+    color: var(--cor1);
+    background-image: linear-gradient(to right, var(--cor1), var(--cor5), transparent);
+    font-family: var(--font-Audiowide);
+    font-size: clamp(18px, 2vw, 24px);
+    text-align: center;
+    margin-right: clamp(10px, 5vw, 100px);
+    padding: 10px;
+}
+
 h2{
     color: var(--cor1);
     font-family: var(--font-Audiowide);
@@ -141,6 +151,7 @@ h2{
     margin-left: clamp(10px, 5vw, 100px);
     padding-top: clamp(10px, 5vw, 50px);
     padding-bottom: clamp(10px, 5vw, 50px);
+    padding-right: clamp(10px, 2vw, 35px);
 
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -160,22 +171,14 @@ h2{
     transform: scale(1.2);
 }
 
+@media (max-width: 600px) {
+    .zo-img img{
+        transition: none;
+    }
 
-
-.img-view{
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    gap: 10px;
-    margin-left: clamp(10px, 5vw, 100px);
-
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-}
-
-.img-view img{
-    border-radius: 10px;
-    margin-left: clamp(15px, 2vw, 30px);
+    .zo-img:hover img{
+        transform: none;
+    }
 }
 
 .ge-info{
