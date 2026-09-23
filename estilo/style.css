@@ -18,6 +18,7 @@
     --cor6: #08090D;
     --cor7: #191A1E;
     --cor9: #0E0A0E;
+    --cor10: #FFABAF;
     
 
     --font-inter: 'Inter';
@@ -97,10 +98,10 @@ nav a:hover::after{
 }
 
 .contain-ti{
-    margin-top: clamp(10px, 5vw, 100px);
-    margin-left: clamp(10px, 5vw, 100px);
+    margin-top: 35px;
+    margin-left: 40px;
     margin-right: 50px;
-    margin-bottom: clamp(10px, 5vw, 50px);
+    margin-bottom: 50px;
     max-width: 500px;
     min-width: 250px;
     max-height: 400px;
@@ -111,7 +112,7 @@ nav a:hover::after{
     font-family: var(--font-inter);
     font-size: 5em;
     font-weight: 900;
-    margin-bottom: 20px;
+    background-image: linear-gradient(to right, var(--cor1) 15%, var(--cor10) 75%, var(--cor3));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
