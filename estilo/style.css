@@ -1,6 +1,6 @@
 @charset "utf";
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Audiowide&family=Bebas+Neue&family=Forum&family=Michroma&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 @font-face{
     font-family: "Demo";
@@ -11,17 +11,16 @@
 
 :root{
     --cor1: #FFFFFF;
-    --cor2: #00050d81;
-    --cor3: #000000;
-    --cor5: #222222;
-    --cor6: #7B9797;
-    --cor7: #ff00003b;
-    --cor8: #012a01cc;
-    --cor9: #8080807b;
-    --cor10: #040012;
+    --cor2: #000000;
+    --cor3: #E50914;
+    --cor4: #08090D;
+    --cor5: #d6d7dc;;
+    --cor6: #08090D;
+    --cor7: #191A1E;
+    --cor9: #0E0A0E;
+    
 
-    --font-Demo: "Demo";
-    --font-Audiowide: 'Audiowide', cursive;
+    --font-inter: 'Inter';
     --font-padrao: Arial, Helvetica, sans-serif;
 }
 
@@ -32,7 +31,7 @@
 }
 
 body{
-    background-color: var(--cor10);
+    background-color: var(--cor6);
     position: relative;
 }
 
@@ -42,15 +41,14 @@ body::before {
     inset: -10%;
     z-index: -1;
     background: 
-        radial-gradient(15% 10% at 15% 15%, var(--cor7), transparent 90%),
-        radial-gradient(15% 10% at 80% 15%, var(--cor8), transparent 90%),
-        radial-gradient(15% 10% at 50% 80%, var(--cor9), transparent 90%);
+        radial-gradient(50% 50% at 50% 50%, var(--cor9), transparent 100%);
         
 }
 
 header{
-    background-color: var(--cor2);
-    padding: 10px;
+    box-shadow: inset 0px -1px 1px var(--cor7);
+    background-color: var(--cor4);
+    padding: 20px;
 }
 
 header div{
@@ -60,37 +58,38 @@ header div{
 }
 
 header p{
-    color: var(--cor1);
-    font-family: var(--font-padrao);
-    font-weight: bold;
-    padding: 10px;
-    margin-left: 50px;
+    color: var(--cor3);
+    font-family: var(--font-inter);
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-left: 30px;
 }
 
 nav {
     margin-left: auto;
-    margin-right: 50px;
 }
 
 nav a{
     position: relative;
-    color: var(--cor1);
+    color: var(--cor5);
     font-family: var(--font-padrao);
+    font-size: 0.9em;
     font-weight: bold;
-    padding: 10px;
-    display: inline-block;
     text-decoration: none;
+    padding-bottom: 10px;
+    margin-right: 30px;
 }
 
 nav a::after {
     position: absolute;
     content: "";
     width: 0;
-    height: 1px;
+    border: 0;
+    height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--cor1);
-    transition: width 0.5s ease;
+    background-color: var(--cor3);
+    transition: width 0.3s ease;
 }
 
 nav a:hover::after{
@@ -109,8 +108,13 @@ nav a:hover::after{
 
 .contain-ti h1{
     color: var(--cor1);
-    font-family: var(--font-Demo);
+    font-family: var(--font-inter);
+    font-size: 5em;
+    font-weight: 900;
     margin-bottom: 20px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .contain-ti p{
