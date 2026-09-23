@@ -11,10 +11,14 @@
 
 :root{
     --cor1: #FFFFFF;
-    --cor2: #00050D;
+    --cor2: #00050d81;
     --cor3: #000000;
     --cor5: #222222;
     --cor6: #7B9797;
+    --cor7: #ff00003b;
+    --cor8: #012a01cc;
+    --cor9: #8080807b;
+    --cor10: #040012;
 
     --font-Demo: "Demo";
     --font-Audiowide: 'Audiowide', cursive;
@@ -28,7 +32,20 @@
 }
 
 body{
-    background-color: var(--cor3);
+    background-color: var(--cor10);
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: -10%;
+    z-index: -1;
+    background: 
+        radial-gradient(15% 10% at 15% 15%, var(--cor7), transparent 90%),
+        radial-gradient(15% 10% at 80% 15%, var(--cor8), transparent 90%),
+        radial-gradient(15% 10% at 50% 80%, var(--cor9), transparent 90%);
+        
 }
 
 header{
