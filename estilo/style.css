@@ -87,7 +87,7 @@ nav a::after {
     content: "";
     width: 0;
     border: 0;
-    height: 2px;
+    height: 1px;
     bottom: 0;
     left: 0;
     background-color: var(--cor3);
