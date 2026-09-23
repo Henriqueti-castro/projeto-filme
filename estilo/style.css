@@ -123,6 +123,7 @@ nav a:hover::after{
 .contain-ti p{
     color: var(--cor11);
     font-family: var(--font-padrao);
+    font-size: 1.1em;
     line-height: 1.6em;
     text-align: justify;
 }
