@@ -90,12 +90,16 @@ nav a{
     margin-right: 30px;
 }
 
+nav a:hover {
+    color: var(--cor3);
+}
+
 nav a::after {
     position: absolute;
     content: "";
     width: 0;
-    border: 0;
     height: 1px;
+    border: 0;
     bottom: 0;
     left: 0;
     background-color: var(--cor3);
