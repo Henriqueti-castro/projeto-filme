@@ -413,6 +413,10 @@ h2{
         width: 250px;
         height: 350px;
     }
+
+    .ge-info {
+        flex-direction: column;
+    }
 }
 
 footer{
