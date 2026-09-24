@@ -104,7 +104,7 @@ nav a:hover::after{
     margin-right: 50px;
     margin-bottom: 50px;
     max-width: 500px;
-    min-width: 250px;
+    max-width: 620px;
     max-height: 400px;
 }
 
@@ -113,7 +113,7 @@ nav a:hover::after{
     font-family: var(--font-inter);
     font-size: 5em;
     font-weight: 900;
-    background-image: linear-gradient(to right, var(--cor1) 15%, var(--cor10) 75%, var(--cor3));
+    background-image: linear-gradient(to right, var(--cor1) 15%, var(--cor10) 55%, var(--cor3));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
