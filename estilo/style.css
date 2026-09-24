@@ -170,19 +170,6 @@ nav a:hover::after{
     padding-bottom: 70px;
     width: 95%;
     box-shadow: inset 0px -1px 1px var(--cor7);
-    animation: right 2s ease forwards;
-}
-
-@keyframes right {
-    0% {
-        transform: translateX(50%);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(1);
-        opacity: 1;
-    }
 }
 
 .imge{
