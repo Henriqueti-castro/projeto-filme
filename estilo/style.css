@@ -20,6 +20,7 @@
     --cor9: #0F0A0E;
     --cor10: #FFABAF;
     --cor11: #A5A8B3;
+    --cor12: #11131A;
     
 
     --font-inter: 'Inter';
@@ -137,6 +138,8 @@ nav a:hover::after{
 
 .ge{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 600px) {
@@ -150,14 +153,41 @@ nav a:hover::after{
 .imge{
     align-items: flex-start;
     display: flex;
-    gap: 5px;
+    gap: 20px;
     background-color: transparent;
 }
 
-.contain-img{
+.contain-div {
     display: flex;
     flex-direction: column;
-    
+    gap: 20px;
+}
+
+.contain-img{
+    display: flex;   
+    gap: 20px;
+}
+
+.contain-img .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor12);
+    width: 450px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.contain-img .img > img {
+    width: 90%;
+    height: 90%;
+}
+
+.ave-g {
+    background-color: var(--cor12);
+    width: 500px;
+    height: 640px;
+    border-radius: 15px;
 }
 
 .titulo{
