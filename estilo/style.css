@@ -199,7 +199,25 @@ nav a:hover::after{
     text-align: justify;
 }
 
+@media (max-width: 600px) {
+    .contain-ti {
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0;
+    }
 
+    .contain-ti h1 {
+        font-size: 2.4em;
+        background-image: linear-gradient(to right, var(--cor1) 0%, var(--cor10) 30%, var(--cor3));
+    }
+
+    .contain-ti p {
+        font-size: 1em;
+    }
+}
 
 .ge{
     display: flex;
