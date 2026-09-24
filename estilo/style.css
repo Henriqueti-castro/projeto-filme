@@ -132,6 +132,7 @@ nav a:hover::after{
 
     header p {
         margin-left: 0;
+        font-size: 1.4em;
     }
 
     header nav {
@@ -197,6 +198,8 @@ nav a:hover::after{
     line-height: 1.6em;
     text-align: justify;
 }
+
+
 
 .ge{
     display: flex;
