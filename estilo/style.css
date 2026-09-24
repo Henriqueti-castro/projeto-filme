@@ -221,7 +221,7 @@ nav a:hover::after{
 
 .ge{
     display: flex;
-    margin: auto;
+    justify-content: center;
     padding-bottom: 70px;
     box-shadow: inset 0px -1px 1px var(--cor7);
 }
@@ -229,19 +229,19 @@ nav a:hover::after{
 .imge{
     align-items: flex-start;
     display: flex;
-    gap: 20px;
+    gap: 15px;
     background-color: transparent;
 }
 
 .contain-div {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 .contain-img{
     display: flex;   
-    gap: 20px;
+    gap: 15px;
 }
 
 .contain-img .img {
@@ -424,8 +424,8 @@ footer{
     display: flex;
     align-items: center;
     padding: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 65px;
+    padding-right: 65px;
 }
 
 footer p{
