@@ -320,7 +320,8 @@ h2{
 }
 
 .dupla {
-    display: none;
+    display: flex;
+    gap: 20px;
 }
 
 .zo-img {
@@ -406,16 +407,25 @@ h2{
 
     .dupla-2 {
         justify-content: flex-start;
-        margin-left: 20px;
+        margin-left: 13px;
     }
 
     .zo-img {
         width: 250px;
         height: 350px;
+        transition: none;
+    }
+
+    .zo-img:hover {
+        transform: none;
+        box-shadow: none;
     }
 
     .ge-info {
         flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        gap: 15px;
     }
 }
 
