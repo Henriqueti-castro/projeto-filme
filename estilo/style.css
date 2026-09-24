@@ -33,8 +33,15 @@
 }
 
 body{
-    background-color: var(--cor6);
     position: relative;
+}
+
+body::before {
+    content: "";
+    inset: -10%;
+    z-index: -1;
+    position: fixed;
+    background-image: radial-gradient(400px 70% at 50% 40% ,var(--cor9), var(--cor4));
 }
 
 header{
