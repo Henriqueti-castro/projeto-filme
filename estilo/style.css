@@ -261,6 +261,35 @@ nav a:hover::after{
     padding: 20px;
 }
 
+@media (max-width: 600px) {
+    .ge {
+        
+    }
+    .imge {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contain-div {
+        gap: 10px;
+    }
+
+    .contain-img {
+        gap: 10px;
+    }
+
+    .contain-img .img {
+        width: 250px;
+    }
+
+    .ave-g {
+        width: 520px;
+        height: 270px;
+    }
+}
+
 .titulo{
     color: var(--cor3);
     font-family: var(--font-inter);
