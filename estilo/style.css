@@ -59,6 +59,17 @@ header{
     box-shadow: inset 0px -1px 1px var(--cor7);
     background-color: var(--cor13);
     padding: 20px;
+    animation: down 2s ease forwards;
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(1);
+    }
 }
 
 header div{
@@ -118,6 +129,19 @@ nav a:hover::after{
     max-width: 500px;
     max-width: 620px;
     max-height: 400px;
+    animation: left 2s ease forwards;
+}
+
+@keyframes left {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(1);
+        opacity: 1;
+    }
 }
 
 .contain-ti h1{
@@ -140,29 +164,24 @@ nav a:hover::after{
     text-align: justify;
 }
 
-@media (max-width: 600px) {
-.ge{
-    flex-direction: column-reverse;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--cor2);
-}
-}
-
 .ge{
     display: flex;
     margin: auto;
     padding-bottom: 70px;
     width: 95%;
     box-shadow: inset 0px -1px 1px var(--cor7);
+    animation: right 2s ease forwards;
 }
 
-@media (max-width: 600px) {
-    .ge .contain-ti{
-        margin: 0px 20px;
-        display: block;
-        box-shadow: 0px -80px 50px var(--cor3);
+@keyframes right {
+    0% {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(1);
+        opacity: 1;
     }
 }
 
@@ -242,16 +261,6 @@ h2{
     box-shadow: 0px 0px 15px var(--cor2);
 }
 
-@media (max-width: 600px) {
-    .zo-img img{
-        transition: none;
-    }
-
-    .zo-img:hover img{
-        transform: none;
-    }
-}
-
 .ge-info{
     background-color: var(--cor14);
     display: flex;
@@ -266,12 +275,6 @@ h2{
     border-bottom: 1px solid var(--cor17);
 }
 
-@media (max-width: 600px) {
-    .ge-info{
-        flex-direction: column;
-    }
-}
-
 .div-info{
     background-color: var(--cor15);
     display: block;
@@ -279,12 +282,6 @@ h2{
     border: 1.5px solid var(--cor17);
     border-radius: 15px;
     padding: 25px;
-}
-
-@media (max-width: 600px) {
-    .div-info{
-        width: 400px;
-    }
 }
 
 .div-info img{
