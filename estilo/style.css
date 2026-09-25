@@ -317,6 +317,13 @@ h2{
     margin-top: 20px;
 }
 
+.uni {
+    justify-content: flex-start;
+    margin-left: 45px;
+    margin-right: 45px;
+    padding-bottom: 100px;
+}
+
 #traco {
     width: 95%;
     margin: auto;
@@ -437,6 +444,7 @@ h2{
 
 footer{
     background-color: var(--cor6);
+    border-top: 1px solid var(--cor7);
     display: flex;
     align-items: center;
     padding: 30px;
