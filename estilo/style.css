@@ -418,8 +418,9 @@ h2{
         margin-bottom: 5px;
     }
 
-    .dupla-2 {
-        
+    .dupla2 {
+        display: flex;
+        margin-left: 20px;
     }
 
     .zo-img {
