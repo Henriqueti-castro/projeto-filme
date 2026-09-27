@@ -282,11 +282,11 @@ nav a:hover::after{
     }
 
     .contain-img .img {
-        width: 250px;
+        width: 220px;
     }
 
     .ave-g {
-        width: 510px;
+        width: 430px;
         height: 270px;
     }
 }
@@ -420,11 +420,10 @@ h2{
 
     .dupla-2 {
         justify-content: flex-start;
-        margin-left: 13px;
     }
 
     .zo-img {
-        width: 250px;
+        width: 220px;
         height: 350px;
         transition: none;
     }
@@ -439,6 +438,11 @@ h2{
         padding-top: 40px;
         padding-bottom: 40px;
         gap: 15px;
+    }
+
+    .div-info {
+        width: 100%;
+        border-radius: 0;
     }
 }
 
