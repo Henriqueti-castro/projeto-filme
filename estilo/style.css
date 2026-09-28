@@ -411,17 +411,6 @@ h2{
         flex-direction: column;
     }
 
-    .dupla {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin-bottom: 5px;
-    }
-
-    .dupla2 {
-        display: flex;
-    }
-
     .zo-img {
         width: 220px;
         height: 350px;
