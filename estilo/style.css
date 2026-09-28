@@ -270,7 +270,7 @@ nav a:hover::after{
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 15px;
+        gap: 10px;
     }
 
     .contain-div {
