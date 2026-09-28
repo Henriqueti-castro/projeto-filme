@@ -332,11 +332,6 @@ h2{
     padding-bottom: 70px;
 }
 
-.dupla {
-    display: flex;
-    gap: 20px;
-}
-
 .zo-img {
     background-color: var(--cor12);
     width: 270px;
