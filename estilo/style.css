@@ -274,19 +274,19 @@ nav a:hover::after{
     }
 
     .contain-div {
-        gap: 5px;
+        gap: 10px;
     }
 
     .contain-img {
-        gap: 5px;
+        gap: 10px;
     }
 
     .contain-img .img {
-        width: 200px;
+        width: 190px;
     }
 
     .ave-g {
-        width: 420px;
+        width: 380px;
         height: 270px;
     }
 }
