@@ -406,15 +406,20 @@ h2{
         margin-left: 15px;
     }
 
-    .img-add {
-        gap: 10px;
-        flex-direction: column;
+    .rolagem {
+        display: flex;
+        justify-content: flex-start;
+        overflow-x: auto;
+        scrollbar-width: none;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .zo-img {
         width: 220px;
         height: 350px;
         transition: none;
+        flex-shrink: 0;
     }
 
     .zo-img:hover {
