@@ -466,3 +466,13 @@ footer .copy{
     margin-left: auto;
 }
 
+@media (max-width: 600px) {
+    footer {
+        padding: 15px;
+    }
+
+    footer p {
+        font-size: 1em;
+    }
+}
+
