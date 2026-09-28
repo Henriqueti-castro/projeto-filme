@@ -329,14 +329,6 @@ h2{
     padding-bottom: 50px;
 }
 
-#traco {
-    width: 95%;
-    margin: auto;
-    border-bottom: 1px solid var(--cor7);
-    padding-top: 25px;
-    padding-bottom: 70px;
-}
-
 .zo-img {
     background-color: var(--cor12);
     width: 270px;
@@ -355,8 +347,14 @@ h2{
     .dupla {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 10px;
     }
+
+    .dupla2 {
+        margin-left: 5px;
+    }
+
     .img-add {
         justify-content: flex-start;
         flex-direction: column;
@@ -422,13 +420,6 @@ h2{
     h2 {
         font-size: 1.2em;
         margin-left: 15px;
-    }
-
-    .rolagem {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        justify-content: center;
     }
 
     .zo-img {
