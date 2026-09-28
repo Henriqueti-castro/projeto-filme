@@ -312,6 +312,7 @@ h2{
 
 .img-add{
     display: flex;
+    justify-content: center;
     gap: 20px;
     margin-top: 20px;
 }
@@ -432,6 +433,10 @@ h2{
     .div-info {
         width: 100%;
         border-radius: 0;
+    }
+
+    .img-add {
+        justify-content: flex-start;
     }
 
     .uni {
