@@ -310,6 +310,11 @@ h2{
     margin-left: 40px;
 }
 
+.dupla {
+    display: flex;
+    gap: 20px;
+}
+
 .img-add{
     display: flex;
     justify-content: center;
@@ -344,6 +349,24 @@ h2{
 .zo-img:hover {
     transform: translate(0%, -2%) scale(102%);
     box-shadow: 0px 0px 15px var(--cor2);
+}
+
+@media (max-width: 600px) {
+    .dupla {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .img-add {
+        justify-content: flex-start;
+        flex-direction: column;
+        gap:15px;
+    }
+
+    .uni {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 .ge-info{
@@ -403,16 +426,13 @@ h2{
 
     .rolagem {
         display: flex;
+        flex-direction: column;
         gap: 20px;
-        justify-content: flex-start;
-        overflow-x: auto;
-        scrollbar-width: none;
-        margin-left: 20px;
-        margin-right: 20px;
+        justify-content: center;
     }
 
     .zo-img {
-        width: 220px;
+        width: 190px;
         height: 350px;
         transition: none;
         flex-shrink: 0;
@@ -433,15 +453,6 @@ h2{
     .div-info {
         width: 100%;
         border-radius: 0;
-    }
-
-    .img-add {
-        justify-content: flex-start;
-    }
-
-    .uni {
-        margin-left: 0;
-        margin-right: 0;
     }
 }
 
