@@ -420,7 +420,6 @@ h2{
 
     .dupla2 {
         display: flex;
-        margin-left: 20px;
     }
 
     .zo-img {
@@ -444,6 +443,11 @@ h2{
     .div-info {
         width: 100%;
         border-radius: 0;
+    }
+
+    .uni {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
