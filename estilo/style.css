@@ -468,6 +468,30 @@ h2{
     }
 }
 
+aside {
+    background-color: var(--cor13);
+    padding: 20px;
+    padding-left: 100px;
+}
+
+aside p {
+    color: var(--cor1);
+    font-family: var(--font-padrao);
+    font-size: 0.8em;
+}
+
+aside p > span {
+    color: var(--cor3);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+    aside {
+        padding-left: 20px;
+    }
+}
+
 footer{
     background-color: var(--cor6);
     border-top: 1px solid var(--cor7);
