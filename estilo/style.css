@@ -482,6 +482,7 @@ aside p {
 
 aside p > span {
     color: var(--cor3);
+    font-size: 1.2em;
     font-weight: 900;
     text-transform: uppercase;
 }
